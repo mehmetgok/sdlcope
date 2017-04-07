@@ -15,16 +15,16 @@ int _color;
 int _proj;
 
 
-  GLfloat *signal_vertices;
-    GLfloat *signal_colors;
+GLfloat *signal_vertices;
+GLfloat *signal_colors;
 
-    GLfloat *fft_vertices;
-    GLfloat *fft_colors;
+GLfloat *fft_vertices;
+GLfloat *fft_colors;
 	
 	
-	 // For mesh drawing
-     GLfloat *mesh_vertices;
-     GLfloat *mesh_colors;
+// For mesh drawing
+GLfloat *mesh_vertices;
+GLfloat *mesh_colors;
 
 struct myData {
     SDL_Window *window;
